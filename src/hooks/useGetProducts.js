@@ -6,7 +6,6 @@ const useGetProducts = (API) => {
 
   useEffect(async () => {
     const response = await axios.get(API)
-    console.log(response)
     setProducts(response.data)
   }, [])
 
