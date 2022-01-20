@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 
 import addtoCart from '@icons/bt_add_to_cart.svg'
-import '@styles/ProductItem.scss';
+import '@styles/ProductItem.scss'
 
 const ProductItem = ({product}) => {
   const [cart, setCart] = useState([]);
@@ -25,4 +25,4 @@ const ProductItem = ({product}) => {
   );
 }
 
-export default ProductItem;
+export default ProductItem
